@@ -29,8 +29,6 @@ while read -r line; do
     fi
 done < "$FOLDER_PATH/appfilter.xml"
 
-#!/bin/bash
-
 # Extract the lines containing "drawable" from the input file and sort them based on the "drawable" attribute
 drawables=$(grep 'drawable=' appfilter_modified.xml | sed -r 's/(.*)(drawable="[a-zA-Z0-9_]*")(.*)/\2 \1&\3/' | sort)
 
