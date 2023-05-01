@@ -25,7 +25,6 @@ with open(os.path.join(FOLDER_PATH, "appfilter.xml"), "r") as input_file, open(M
             # Extract the drawable name from the line
             drawable_name = line.split('drawable="')[1].split('"')[0]
             # Check if the drawable name is in the list of PNG files
-            #if os.path.join(FOLDER_PATH, drawable_name + '.png') in PNG_FILES:
             if os.path.join(FOLDER_PATH, drawable_name + '.png') in IMAGE_FILES or os.path.join(FOLDER_PATH, drawable_name + '.webp') in IMAGE_FILES:
                 # If there is a matching drawable name, add the line to the list of drawable lines
                 drawables.append(line)
