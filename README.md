@@ -43,7 +43,7 @@ If you are skipping the GUI and want to run the script directly follow these ste
 4. Navigate to the folder where the scripts are located using the "cd" command.
 5. Type the following command to run the script:
 
-``` python3 appfilter_organized.py ```
+``` python3 appfilter_script.py ```
 
 ## Note
 
