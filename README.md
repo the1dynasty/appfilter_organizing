@@ -6,10 +6,10 @@ This README file provides instructions on how to use the "gui.py" script in conj
 ## Requirements
 In order to run the scripts, you will need the following:
 - Python 3.x installed on your computer
-- The "gui.py" and "appfilter_organizer.py" scripts located in the same folder
+- The "gui.py" and "appfilter_script.py" scripts located in the same folder
 - Tkinter: This is used to create the GUI.
 - ttkthemes: This is used to set the Material Design style for the GUI.
-- The PNG images for your theme AND the appfilter.xml file in a folder together. (Does not have to be the same folder as the "gui.py" and "appfilter_organizer.py")
+- The PNG images for your theme AND the appfilter.xml file in a folder together. (Does not have to be the same folder as the "gui.py" and "appfilter_script.py")
 
 ## OPTION 1: Running the Script with the GUI
 To run the "gui.py" script, follow these steps:
@@ -22,7 +22,7 @@ To run the "gui.py" script, follow these steps:
 ``` python3 gui.py ```
 
 4. Press Enter to execute the command.
-5. The GUI will now be launched and you can use it to interact with the "appfilter_organizer.py" script.
+5. The GUI will now be launched and you can use it to interact with the "appfilter_script.py" script.
 
 ## Using the GUI
 The GUI allows you to select the folder where your appfilter.xml file and PNG images are located.
@@ -36,8 +36,8 @@ With these instructions, you should now be able to use the "gui.py" script to or
 ## OPTION 2: Running the script without using the GUI
 
 If you are skipping the GUI and want to run the script directly follow these steps:
-- Place the "appfilter_organizer.py" in the same folder as your PNG images AND your appfilter.xml.
-1. Dowload just the "appfilter_organizer.py" file.
+- Place the "appfilter_script.py" in the same folder as your PNG images AND your appfilter.xml.
+1. Dowload just the "appfilter_script.py" file.
 2. Place the "appfilter_organizer.py" in the same folder as your PNG images AND your appfilter.xml.
 3. Open a command prompt or terminal window.
 4. Navigate to the folder where the scripts are located using the "cd" command.
