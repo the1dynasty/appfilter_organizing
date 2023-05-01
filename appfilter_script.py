@@ -49,3 +49,9 @@ with open(os.path.join(FOLDER_PATH, "appfilter_organized.xml"), "w") as output_f
     for drawable in drawables:
         output_file.write('    ' + drawable.strip() + '\n')
     output_file.write('</resources>\n')
+
+# Remove the modified file
+os.remove(MODIFIED_FILE)
+
+# Display a message to the user indicating that the script has finished
+print("The script has finished generating the 'appfilter_organized.xml' file.")
