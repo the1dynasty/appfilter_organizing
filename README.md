@@ -27,7 +27,7 @@ To run the "gui.py" script, follow these steps:
 ## Using the GUI
 The GUI allows you to select the folder where your appfilter.xml file and PNG images are located.
 
-Once you have selected the folder, you can click the "Organize" button to execute the "appfilter_organizer.py" script. The script will then read in the appfilter.xml file, organize the apps based on the drawable name in ascending alphabetical order, and save the new file as appfilter_organized.xml to the same folder as your PNG and appfilter.xml. This will NOT overwrite your original "appfilter.xml".
+Once you have selected the folder, you can click the "Organize" button to execute the "appfilter_organizer.py" script. The script will then read in the appfilter.xml file, organize the apps based on the drawable name in ascending alphabetical order, and save the new file as appfilter_organized.xml to the same folder as your PNG or WEBP images and appfilter.xml. This will NOT overwrite your original "appfilter.xml".
 
 ## Conclusion
 With these instructions, you should now be able to use the "gui.py" script to organize your appfilter.xml file by drawable name in ascending alphabetical order.
@@ -36,9 +36,8 @@ With these instructions, you should now be able to use the "gui.py" script to or
 ## OPTION 2: Running the script without using the GUI
 
 If you are skipping the GUI and want to run the script directly follow these steps:
-- Place the "appfilter_script.py" in the same folder as your PNG images AND your appfilter.xml.
 1. Dowload just the "appfilter_script.py" file.
-2. Place the "appfilter_script.py" in the same folder as your PNG images AND your appfilter.xml.
+2. Place the "appfilter_script.py" in the same folder as your PNG or WEBP images AND your appfilter.xml.
 3. Open a command prompt or terminal window.
 4. Navigate to the folder where the scripts are located using the "cd" command.
 5. Type the following command to run the script:
