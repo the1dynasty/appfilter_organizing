@@ -8,9 +8,6 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 # Specify the folder path where the PNG files and the appfilter.xml file are located
 FOLDER_PATH = SCRIPT_DIR
 
-# Get the list of PNG files in the folder
-#PNG_FILES = [os.path.join(FOLDER_PATH, f) for f in os.listdir(FOLDER_PATH) if f.endswith(".png")]
-
 # Get the list of PNG and WebP files in the folder
 PNG_FILES = [os.path.join(FOLDER_PATH, f) for f in os.listdir(FOLDER_PATH) if f.endswith(".png")]
 WEBP_FILES = [os.path.join(FOLDER_PATH, f) for f in os.listdir(FOLDER_PATH) if f.endswith(".webp")]
