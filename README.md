@@ -1,7 +1,7 @@
 # README - How to Use "Appfilter Organizer"
 
 ## Introduction
-This README file provides instructions on how to use the "gui.py" script in conjunction with the "appfilter_organizer.py" script. Both of these scripts must be located in the same folder in order to function correctly.
+This README file provides instructions on how to use the "gui.py" script in conjunction with the "appfilter_script.py" script. Both of these scripts must be located in the same folder in order to function correctly.
 
 ## Requirements
 In order to run the scripts, you will need the following:
